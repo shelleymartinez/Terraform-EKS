@@ -1,6 +1,7 @@
 
 resource "random_string" "eks" {
   length = 5
+  special = false
  }
 
 module "networking" {
